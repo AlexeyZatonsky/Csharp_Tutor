@@ -1,0 +1,13 @@
+using System;
+
+namespace TestProgramm
+{
+     public class Program
+    {
+        public static void Main(string[] args)
+        {
+            double a = Convert.ToInt32(Console.ReadLine()) * 0.5 * Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(a);
+        }
+    }
+}
