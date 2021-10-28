@@ -1,0 +1,15 @@
+using System;
+
+namespace TestProgramm
+{
+     public class Program
+    {
+        public static void Main(string[] args)
+        {
+            int n = Convert.ToInt32(Console.ReadLine());
+            int k = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(k / n);
+            Console.WriteLine(k % n);
+        }
+    }
+}
